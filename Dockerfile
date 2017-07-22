@@ -1,6 +1,6 @@
 FROM centos:latest
 MAINTAINER James Gaspari
-LABEL License=GPLv2
+LABEL License=MIT
 
 # Updates the Container and installs httpd
 RUN yum -y update && yum clean all
